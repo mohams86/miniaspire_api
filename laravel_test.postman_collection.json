@@ -1,0 +1,86 @@
+{
+	"variables": [],
+	"info": {
+		"name": "laravel_test",
+		"_postman_id": "5e2fdc1d-908a-f986-f2ca-0c7f274a36a2",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/api/register",
+			"request": {
+				"url": "http://localhost:8000/api/register",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"John\", \"email\": \"mohammed.mansawala12@gmail.com\", \"password\": \"toptal123\", \"password_confirmation\": \"toptal123\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/login",
+			"request": {
+				"url": "http://localhost:8000/api/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"mohammed.mansawala12@gmail.com\", \"password\": \"toptal123\" }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/logout",
+			"request": {
+				"url": "http://localhost:8000/api/repayloan",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"qwqwqwq\", \"email\": \"qwqwqw@sasa.com\", \"loan_amount\": \"5000\", \"loan_term\": \"asasa\" }"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
